@@ -1,0 +1,15 @@
+  p{
+  font-size: 50px;
+    background-color: red;
+    color: yellow;
+}
+ul,ol{
+    font-size: 30px;
+    color: red;
+}
+.l1 li{
+    padding-left: 16px;
+}
+ol{
+    margin-left: 100px;
+}

@@ -1,0 +1,75 @@
+body{
+    background-color: bisque;
+}
+p{
+    font-size: 50px;
+    background-color: aqua;
+    color: blue;
+    display: block;
+}
+span{
+    color: blueviolet;
+    font-size: italic;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+
+}
+li:hover{
+    color: greenyellow;
+    background-color: yellow;
+    font-family: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#first{
+    background-color: aquamarine;
+    width: 50%;
+    height: 400px;
+    font-size: 36px;
+    color: black;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    border-width: 30px;
+    border-style: dotted groove dashed ridge;
+    border-color: red fuchsia pink greenyellow;
+    border-radius:5% 10%  ;
+    margin-bottom: 40px;
+}
+#sekond{
+    width: 500px;
+    height: 800px;
+    background-color: yellow;
+    padding: 50px;
+    border-width: 25px ;
+    border-style: solid dotted;
+    border-color: blueviolet rebeccapurple;
+}
+#third,#fourth{
+    width: 600px;
+    height: 200px;
+    background-color: orchid;
+    margin: 50px;
+}
+#fourth{
+    background-color: rgb(61, 5, 69);
+}
+#third,#fourth{
+    width: 600px;
+    height: 200px;
+    background-color: orchid;
+    margin: 50px;
+    border-width:25px ;
+    border-style: solid dotted;
+    background-color: blueviolet hotpink;
+}
+.shadowbox {
+  width: 15em;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
